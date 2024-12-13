@@ -1,9 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import Accordion, {
-  AccordionItem,
-} from "./components/firstAccordion/Accordion";
+import Accordion from "./components/firstAccordion/Accordion";
 import Items from "./components/firstAccordion/Items";
+import CarouselGames from "./components/slider/Carousel";
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
       <Accordion className="max-w-lg text-left">
         <Items />
       </Accordion>
+      <CarouselGames />
     </>
   );
 }
